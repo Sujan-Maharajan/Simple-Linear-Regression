@@ -4,7 +4,7 @@ A simple Linear Regression project built from scratch using Python, NumPy, and P
 
 This project predicts a student's exam score based on the number of hours they studied. Instead of using a machine learning library such as Scikit-learn, the linear regression calculations are implemented manually using mathematical formulas.
 
-📌 Project Overview
+Project Overview
 
 The model learns the relationship between:
 
@@ -19,18 +19,18 @@ Calculate the regression line
 Make predictions
 Evaluate the model using MSE and R²
 Predict an exam score for a student who studies for 7.5 hours
-🛠️ Technologies Used
+Technologies Used
 Python
 Pandas
 NumPy
 CSV Dataset
-📂 Project Structure
+Project Structure
 linear-regression-from-scratch/
 │
 ├── linreg_students.csv
 ├── linear_regression.py
 └── README.md
-🧠 How It Works
+How It Works
 
 The regression model finds a line:
 
@@ -50,7 +50,7 @@ b1 = Σ((x - mean_x)(y - mean_y)) / Σ((x - mean_x)²)
 The intercept is calculated using:
 
 b0 = mean_y - b1 × mean_x
-📊 Data Split
+Data Split
 
 The dataset is divided into:
 
@@ -59,7 +59,7 @@ The dataset is divided into:
 
 The training data is used to calculate the regression line, while the testing data is used to evaluate how well the model performs on unseen data.
 
-📈 Model Evaluation
+Model Evaluation
 
 The model uses two evaluation metrics:
 
@@ -79,7 +79,7 @@ R² = 1 - (Sum of Squared Errors / Total Sum of Squares)
 
 A value closer to 1 generally indicates a better fit.
 
-🔮 Example Prediction
+Example Prediction
 
 The model can predict an exam score for a student who studies for 7.5 hours:
 
